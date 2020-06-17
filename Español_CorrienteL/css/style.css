@@ -1,0 +1,113 @@
+body{
+  animation: XD 60s linear infinite alternate  both;
+}
+@keyframes XD {
+  0%{
+    background: rgb(207, 207, 207);
+  }
+  33.3333%{
+    background: rgb(173, 173, 173);
+  }
+  66.6666%{
+    background-color: rgb(122, 121, 121);
+  }
+  100%{
+    background-color: rgb(87, 87, 87);
+  }
+}
+
+.contenedor{
+  width: 1090px;
+  height: auto;
+  margin: 0 auto;
+  line-height: 27px;  
+
+}
+
+
+a{
+  text-decoration:none;
+  color: Black;
+}
+
+button{
+  height: auto;
+  width: auto;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d8da3d ;
+  animation: botones 12s linear infinite alternate  both;
+}
+
+@keyframes botones {
+  0%{
+    background-color: #b4b4b4;
+  }
+  11.111%{
+    background-color: red;
+  }
+  22.2222%{
+    background-color: orange;
+  }
+  33.3333%{
+    background-color: yellow;
+  }
+  66.6666%{
+    background-color: green;
+  }
+  77.7777%{
+    background-color:cyan;
+  }
+  88.8888%{
+  background-color: darkslateblue;
+}
+100%{
+  background-color: purple;
+}
+
+}
+
+.info{
+  background-color:#E0D0C1; 
+  padding-top:100px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.hi{
+  margin: 0 auto;
+  position: absolute;
+  position: fixed;
+  height: auto;
+  width: 1100px;
+  border-radius: 20px;
+  overflow-wrap: break-word;
+  font-size: 30px;
+  font-family: Knewave;
+  color:#601700;
+  text-shadow: 4px 4px 9px black;
+  background-color: #00A375;
+}
+
+.botones{
+  text-align: center;
+}
+
+
+.titulo{
+  color: #ffffffd8;
+}
+
+.lorem{
+  opacity: 0;
+  display:inline;
+}
+
+.hostoria{
+  position: absolute;
+  padding:  10px;
+}
+
+.video{
+  display: inline;
+}
